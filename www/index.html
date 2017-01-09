@@ -43,6 +43,7 @@
     function getConnectionTypeStr() {
         //get the network state
         var networkState = navigator.network.connection.type;
+        alert(networkState);
         //return a string representing the current network state
         return states[networkState];
     }
